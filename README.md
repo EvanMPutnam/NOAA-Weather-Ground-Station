@@ -1,3 +1,6 @@
+# Notice
+This is an active work in progress and not complete.
+
 # Setup
 
 ```
@@ -19,3 +22,8 @@ If any new packages are added then you will need to update the requirements.txt 
 
 # TODO
 - .env file setup
+- SDR config LINUX
+- Image processing
+- Local storage
+- DB modeling
+- Remote storage (S3)
