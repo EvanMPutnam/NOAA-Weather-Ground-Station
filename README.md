@@ -14,7 +14,10 @@ conda activate ground-station
 ## Export Needed Packages
 If any new packages are added then you will need to update the requirements.txt file.
 
-`pip list --format=freeze > requirements.txt`
+`
+sudo apt-get install portaudio19-dev
+pip list --format=freeze > requirements.txt
+`
 
 # Resource Links
 - https://www.instructables.com/Raspberry-Pi-NOAA-Weather-Satellite-Receiver/
